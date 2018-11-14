@@ -11,7 +11,7 @@
 
 .text1 {
     font-family: "Roboto", sans-serif;
-    font-size: "18px";
+    font-size: 18px;
     font-weight: bold;
     color: white;
 }
@@ -22,7 +22,7 @@ h1 {
 }
 
 ul li {
-    color: #fff651;
+    color: #fffeef;
     font-size: 28px;
     text-align: center;
 }

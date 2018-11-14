@@ -16,7 +16,7 @@
 
 #textbig {
     font-family: "Roboto", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     color: #82eaff;
 }
@@ -28,6 +28,6 @@ h1 {
 
 ul li {
     color: #fffeef;
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
 }

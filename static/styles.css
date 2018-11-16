@@ -7,13 +7,10 @@
         background-color: #092d68;
     }
     .text1 {
-        font-size: 1rem;
+        font-size: .7rem;
     }
     #textbig {
         font-size: 1.5rem;
-    }
-    p {
-        font-size: 1rem;
     }
 }
 

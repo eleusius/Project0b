@@ -1,41 +1,36 @@
-.list1 {
-  color: deepskyblue;
-  font-weight: bold;
-  text-align: center;
-  list-style-position: inside; }
+/*
+Error: Invalid CSS after "...-width: 499px) ": expected media query list, was "{"
+        on line 1 of static/styles.css
 
-.text1, #textbig {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  text-align: justify; }
+1: @media (max-width: 499px) {
+2:     .table {
+3:         width: 100%;
+4:     }
+5:     .hero-image {
+6:         background-image: none;
 
-@media (max-width: 499px) {
-  .list1 ul {
-    font-size: 22px; }
-  .list1 ol {
-    font-size: 16px; } }
-@media (min-width: 500px) {
-  .list1 ul {
-    font-size: 28px; }
-  .list1 ol {
-    font-size: 18px; } }
-
-.text1 {
-  color: white; }
-  @media (max-width: 499px) {
-    .text1 {
-      font-size: 18px; } }
-  @media (min-width: 500px) {
-    .text1 {
-      font-size: 14px; } }
-
-#textbig {
-  color: #82eaff; }
-  @media (max-width: 499px) {
-    #textbig {
-      font-size: 18px; } }
-  @media (min-width: 500px) {
-    #textbig {
-      font-size: 14px; } }
-
-/*# sourceMappingURL=styler.css.map */
+Backtrace:
+static/styles.css:1
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:74:in `parse_media_query_list'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:895:in `parse_media_directive'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:812:in `parse_directive'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:646:in `parse_line'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:536:in `build_tree'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/mnt/shared/sbin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...-width: 499px) \": expected media query list, was \"{\"\A         on line 1 of static/styles.css\A \A 1: @media (max-width: 499px) {\A 2:     .table {\A 3:         width: 100%;\A 4:     }\A 5:     .hero-image {\A 6:         background-image: none;"; }

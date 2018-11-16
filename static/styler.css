@@ -6,13 +6,13 @@
 
 @media (max-width: 499px) {
   .list1 ul {
-    font-size: 28px; }
-  .list1 ol {
-    font-size: 18px; } }
-@media (min-width: 500px) {
-  .list1 ul {
     font-size: 22px; }
   .list1 ol {
     font-size: 16px; } }
+@media (min-width: 500px) {
+  .list1 ul {
+    font-size: 28px; }
+  .list1 ol {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=styler.css.map */

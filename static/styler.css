@@ -4,6 +4,11 @@
   text-align: center;
   list-style-position: inside; }
 
+.text1, #textbig {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: justify; }
+
 @media (max-width: 499px) {
   .list1 ul {
     font-size: 22px; }
@@ -14,5 +19,23 @@
     font-size: 28px; }
   .list1 ol {
     font-size: 18px; } }
+
+.text1 {
+  color: white; }
+  @media (max-width: 499px) {
+    .text1 {
+      font-size: 18px; } }
+  @media (min-width: 500px) {
+    .text1 {
+      font-size: 14px; } }
+
+#textbig {
+  color: #82eaff; }
+  @media (max-width: 499px) {
+    #textbig {
+      font-size: 18px; } }
+  @media (min-width: 500px) {
+    #textbig {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=styler.css.map */

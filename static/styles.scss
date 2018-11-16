@@ -5,6 +5,12 @@
     list-style-position: inside;
 }
 
+%text0 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
 .list1 {
     @extend %list;
     @media (max-width: 499px) {
@@ -25,6 +31,24 @@
     }
 }
 
+.text1 {
+    @extend %text0;
+    color: white;
+    @media (max-width: 499px) {
+        font-size: 18px;
+    }
+    @media (min-width: 500px) {
+        font-size: 14px;
+    }
+}
 
-
-
+#textbig {
+    @extend %text0;
+    @media (max-width: 499px) {
+        font-size: 18px;
+    }
+    @media (min-width: 500px) {
+        font-size: 14px;
+    }
+    color: #82eaff;
+}

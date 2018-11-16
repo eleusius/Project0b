@@ -4,6 +4,7 @@
     }
     .hero-image {
         background-image: none;
+        background-color: #092d68;
     }
     .text1 {
         font-size: 1rem;
@@ -13,17 +14,20 @@
     }
 }
 
-body {
-    font-size: 1rem;
+
+@media (min-width: 500px) {
+    .hero-image {
+        background-image: url("Milky_Way_Galaxy.jpg"); /* The image used */
+        background-color: #092d68; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
 }
 
-.hero-image {
-    background-image: url("Milky_Way_Galaxy.jpg"); /* The image used */
-    background-color: #092d68; /* Used if the image is unavailable */
-    height: 100%; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+body {
+    font-size: 1rem;
 }
 
 .text1 {

@@ -1,3 +1,21 @@
+@media (max-width: 500px) {
+    .table {
+        width: 100%;
+    }
+    ul li {
+        font-size: 22px;
+    }
+    .hero-image {
+        background-image: none;
+    }
+    .text1 {
+        font-size: 1rem;
+    }
+    #textbig {
+        font-size: 1.5rem;
+    }
+}
+
 .hero-image {
     background-image: url("Milky_Way_Galaxy.jpg"); /* The image used */
     background-color: #092d68; /* Used if the image is unavailable */
@@ -28,6 +46,7 @@ h1 {
 
 ul li {
     color: #82eaff;
-    font-size: 26px;
+    font-size: 28px;
+    font-weight: bold;
     text-align: center;
 }

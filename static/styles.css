@@ -1,9 +1,6 @@
-@media (max-width: 500px) {
+@media (max-width: 499px) {
     .table {
         width: 100%;
-    }
-    ul li {
-        font-size: 22px;
     }
     .hero-image {
         background-image: none;
@@ -14,6 +11,10 @@
     #textbig {
         font-size: 1.5rem;
     }
+}
+
+body {
+    font-size: 1rem;
 }
 
 .hero-image {
@@ -44,9 +45,3 @@ h1 {
     text-align: center;
 }
 
-ul li {
-    color: #82eaff;
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-}

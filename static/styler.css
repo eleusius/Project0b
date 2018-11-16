@@ -1,0 +1,18 @@
+.list1 {
+  color: #82eaff;
+  font-weight: bold;
+  text-align: center;
+  list-style-position: inside; }
+
+@media (max-width: 499px) {
+  .list1 ul {
+    font-size: 28px; }
+  .list1 ol {
+    font-size: 18px; } }
+@media (min-width: 500px) {
+  .list1 ul {
+    font-size: 22px; }
+  .list1 ol {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=styler.css.map */

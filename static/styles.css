@@ -11,7 +11,13 @@
 }
 
 @media (min-width: 500px) {
-    .hero-image {
+
+    .text1 {
+        font-size: 1.5rem;
+    }
+}
+
+.hero-image {
         background-image: url("nebula.jpg"); /* The image used */
         background-color: #092d68; /* Used if the image is unavailable */
         height: 100%; /* You must set a specified height */
@@ -19,10 +25,6 @@
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
     }
-    .text1 {
-        font-size: 1.5rem;
-    }
-}
 
 body {
     font-size: 1rem;
